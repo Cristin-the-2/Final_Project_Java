@@ -10,6 +10,7 @@ public class TxtFileHandler {
             writer.write(text);
             writer.append('\n');
             writer.flush();
+            System.out.println("Сохранение игрушки прошло успешно!");
         }
         catch (IOException ex) {
             System.out.println(ex.getMessage());
